@@ -9,12 +9,6 @@ body {
   background-color: rgba(64, 160, 163, 0.501);
   color: cadetblue;
 }
-@media only screen and (max-width: 900px) {
-  /* For mobile phones: */
-  .container {
-    width: 80%;
-  }
-}
 #container {
   width: 50%;
   padding: 20px 10px;
@@ -27,6 +21,13 @@ body {
   color: white;
   border: 0;
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  /* For mobile phones: */
+  .container {
+    width: 80%;
+  }
 }
 h1 {
   font-size: 30px;
