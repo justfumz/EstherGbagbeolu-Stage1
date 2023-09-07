@@ -9,7 +9,7 @@ body {
   background-color: rgba(64, 160, 163, 0.501);
   color: cadetblue;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   /* For mobile phones: */
   .container {
     width: 80%;
