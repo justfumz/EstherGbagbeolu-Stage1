@@ -2,10 +2,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: monospace;
 }
 
 body {
   width: 100%;
   background-color: rgba(64, 160, 163, 0.501);
-  color: rgb(88, 82, 82);
+  color: cadetblue;
+}
+
+#container {
+  width: 80%;
+  padding: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0;
+}
+img {
+  width: 200px;
+  border-radius: 10%;
 }
