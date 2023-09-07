@@ -23,12 +23,6 @@ body {
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 900px) {
-  /* For mobile phones: */
-  .container {
-    width: 80%;
-  }
-}
 h1 {
   font-size: 30px;
   text-align: center;
@@ -56,4 +50,11 @@ button > a {
 
 button:hover {
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .container {
+    width: 80%;
+  }
 }
