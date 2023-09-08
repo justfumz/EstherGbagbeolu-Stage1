@@ -1,6 +1,7 @@
 'use strict';
-const day = document.querySelector('.current-day');
-const time = document.querySelector('.current-time');
+const day = document.querySelector('[data-testid="currentDayOfTheWeek"]');
+const time = document.querySelector('[data-testid="currentUTCTime"]');
+
 const date = new Date();
 
 //Array that contains the days of the week
